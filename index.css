@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+#section-banner{
+    background-image: url('./assets/banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.conteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    top: 50%;
+    bottom: 50%;
+}
+
+.conteudos button{
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.conteudos button:hover {
+    border:2px solid #000;
+    background: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.teste h1{
+    color: transparent;
+}
+
+.beneficios-imgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.beneficios hr{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.657);
+    height: 3px;
+}
+
+.beneficios-imgs div img{
+    width: 180px;
+}
+
+.beneficios-imgs .card{
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(69,69,69,1);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(69,69,69,1);
+    box-shadow: 3px 4px 5px 0px rgba(69,69,69,1);;
+}
+
+.text{
+    color: #000;
+    font-size: 16px;
+}
+
+.cursos{
+    background-color: #F7F8F9;
+}
+
+.cursos hr{
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.657);
+    height: 3px;
+}
+
+.card img{
+    width: 400px;
+}
+
+.wave img{
+    padding-top: 10px;
+    transform: scaleY(-1);
+}
+
+.wave-baixo img{
+    transform: scaleX(-1);
+}
+
+.informations {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.informations .elements button{
+    margin-left: 40%;
+}
+
+.contato{
+    background-color:  #F7F8F9;
+}
+
+.contato hr{
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.657);
+    height: 3px;
+}
